@@ -1,15 +1,12 @@
-```markdown
 # awesome-chatgpt-prompts-gpt-4
-
 ## Description
 "awesome-chatgpt-prompts-gpt-4" is an advanced library based on GPT-4, offering exceptional text prompts for chatbots, question answering, and text generation. The library provides highly customizable responses and extensive multilingual support.
 
 ## Installation
 To install the library, use pip:
 
-```bash
+bash
 pip install awesome_chatgpt_prompts_gpt_4
-```
 
 ## Usage
 1. Explore text prompt examples in the `examples` directory.
@@ -24,7 +21,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 For inquiries or feedback, reach out to us at [yur.potock@mail.ru].
 
-```python
+python
 from your_library_name import YourGeneratorClassName
 
 # Initialize the generator using your library
@@ -36,16 +33,15 @@ output_text = generator.generate_text(prompt, max_length=100, temperature=0.7)
 
 # Print the generated text
 print(output_text)
-```
 
-```python
-# your_library_name/__init__.py
+python
+# your_library_name/init.py
 # Initialization file for the library
 
 # your_library_name/generator.py
 class YourGeneratorClassName:
     # Define the class for generating text based on GPT-4
-    def __init__(self):
+    def init(self):
         # Initialize the generator
         pass
 
@@ -55,13 +51,12 @@ class YourGeneratorClassName:
 
 # your_library_name/utils.py
 # Utility functions for the library
-```
 
-```plaintext
+plaintext
 project_root/
 │
 ├── your_library_name/
-│   ├── __init__.py
+│   ├── init.py
 │   ├── generator.py
 │   └── utils.py
 │
@@ -74,5 +69,4 @@ project_root/
 ├── test/
 │   ├── test_generator.py
 │
-└── LICENSE
-```
+└── LICENSE  
