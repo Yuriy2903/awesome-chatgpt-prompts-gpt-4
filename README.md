@@ -49,3 +49,20 @@ output_text = generator.generate_text(prompt, max_length=100, temperature=0.7)
 # Print the generated text
 print(output_text)
 ```
+
+```python
+# test_library.py
+import pytest
+from your_library import YourGeneratorClassName
+
+def test_text_generation():
+    # Test text generation functionality
+    generator = YourGeneratorClassName()
+    prompt = "Testing text generation"
+    output_text = generator.generate_text(prompt, max_length=100, temperature=0.7)
+    assert len(output_text) > 0, "Generated text should not be empty"
+
+# This is an example test file to test the functionality of our library
+# You can add more tests to cover different parts of your library
+# Integration with development process and continuous integration is crucial for ensuring code quality
+```
